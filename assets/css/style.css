@@ -72,10 +72,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding:0px 0;
 }
 #header.header-scrolled {
-  padding: 12px 0;
+  padding: 0px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #header .logo {
@@ -144,11 +144,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 100px;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
-  color: #111111;
+  color: #153b6c;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -412,7 +412,7 @@ section {
 }
 .section-bg:before {
   content: "";
-  background: #1b1b1b;
+  background: #153b6c;
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -1807,5 +1807,7 @@ section {
   text-decoration: none;
 }
 .logonuevo {
-margin-right: 52px;
+margin-left: -100px;
+max-width: 300px;
+max-height: 200px;
 }
