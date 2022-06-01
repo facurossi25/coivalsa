@@ -1672,11 +1672,11 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #111111;
+  background: #153b6c;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #1b1b1b;
+  background: #153b6c;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1790,7 +1790,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2b2b2b;
+  background: #e60303;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
