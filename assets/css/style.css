@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 100px;
+  padding: 10px 0 10px 50px;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -1807,7 +1807,20 @@ section {
   text-decoration: none;
 }
 .logonuevo {
-margin-left: -100px;
+margin-left: -4%;
 max-width: 300px;
 max-height: 200px;
+}
+.center-margin{
+  margin-left: 40%;
+}
+
+@media (max-width: 768px){
+  .logonuevo{
+    max-width: 245px;
+  }
+  .center-margin{
+    margin-left: 20%;
+  }
+
 }
