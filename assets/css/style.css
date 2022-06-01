@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 0px 0;
   overflow: hidden;
   position: relative;
 }
@@ -526,7 +526,7 @@ section {
   background: #e03a3c;
 }
 .about .icon-boxes .icon-box {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .about .icon-boxes .icon-box i {
   font-size: 40px;
